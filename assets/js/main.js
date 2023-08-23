@@ -23,6 +23,10 @@ console.log(userName);
 const userSurname = prompt ("Qual'è il tuo cognome?")
 console.log(userSurname);
 
+//Chiedi età utente
+const age = prompt ("Quanti anni hai?")
+console.log(age);
+
 //Chiedi il colore preferito dell'utente
 
 const favoriteColour = prompt ("Qual'è il tuo colore preferito?")
@@ -35,8 +39,8 @@ console.log(finalResult);
 
 //Stampa nella console
 
-console.log(userName + userSurname + favoriteColour);
+console.log(userName + userSurname + favoriteColour + age);
 
 //Stampa nella pagina
 
-finalResult.innerHTML = userName + userSurname + favoriteColour
+finalResult.innerHTML = userName + userSurname + favoriteColour + age
